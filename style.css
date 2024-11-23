@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+p#no-events-message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #888;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #e9ecef;
+    margin: 10px 0;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+li .event-name {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+li .event-time {
+    font-size: 1rem;
+    color: #555;
+}
+
+li .event-countdown {
+    font-size: 1rem;
+    color: #333;
+}
+
+li img {
+    height: 30px;
+    width: 30px;
+    margin-right: 30px;
+}
+
+li img:not([src]) {
+    visibility: hidden;
+}
+
+li span {
+    margin-right: 30px;
+}
