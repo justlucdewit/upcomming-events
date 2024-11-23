@@ -74,7 +74,7 @@ function loadEvents(events) {
 
 // Function to fetch the events from the JSON file
 function fetchEvents() {
-    fetch('events.json')
+    fetch('src/events.json')
     .then(response => response.json())
     .then(data => {
         loadEvents(data);  // Load and display events from the JSON data
